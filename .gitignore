@@ -22,7 +22,7 @@ printf("please enter your height (feet(");
  scanf ("%d", &height);
 
 bmi=(weight)/height;
- printf("your bmi is: %F/n",bmi");
+ printf("your bmi is: "%F/n",bmi");
 
 if (bmi=<18.5);
  printf ("you are underweight");
