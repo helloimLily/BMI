@@ -1,0 +1,44 @@
+#include <stdio.h>
+  int main() {
+         float weight, height, bmi, char c ;
+
+printf("do you want to use metric measurements? Y or N (if N, imperial will be used)");
+ scanf("%c, &c);
+ if (c=='y'){
+ printf("enter your weight please (kg)");
+ scanf("%f, &weight);
+
+printf("please enter your height (cm)");
+ scanf("%d, &height);
+
+bmi=(weight)/height;
+ printf("your bmi is: %F/n",bmi");
+
+else if (char=='n'){
+ printf("please enter your weight (stone)");
+ scanf ("%f", &weight);
+
+printf("please enter your height (feet(");
+ scanf ("%d", &height);
+
+bmi=(weight)/height;
+ printf("your bmi is: %F/n",bmi");
+
+if (bmi=<18.5);
+ printf ("you are underweight");
+ 
+ else if (18.5 bmi <25);
+ printf ("your weight is normal");
+ 
+ else if (25<bmi<30);
+ printf ("you are overweight");
+ 
+ else (bmi>30);
+printf ("you are obese");
+
+  return 0
+  
+  }
+ 
+
+ 
